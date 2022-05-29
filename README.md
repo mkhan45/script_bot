@@ -12,3 +12,7 @@ Add custom python commands and execute them with RestrictedPython
 - Add a timeout
 - Add more languages
 - Sanitize output?
+- Complete rework
+  - Use [erlport](http://erlport.org/docs/python.html) to create a Python process and GenServer for each registered bot
+  - Allow bots to have a few registered admins who can change it
+  - A prefix for each bot
